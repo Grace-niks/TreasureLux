@@ -114,6 +114,18 @@ p.slide-left{
 .links.slide-left{
     animation-delay: 2s;
 }
+@media screen and (max-width: 770px) {
+    .title-text h1{
+        font-size: 35px;
+    }
+    .header{
+        flex-basis: 100%;
+    }
+    .content{
+        flex-basis: 100%;
+        width: 100%;
+    }
+}
   #features{  
       width: 100%;
       padding: 10% 0;
@@ -297,12 +309,179 @@ p.slide-left{
     }
 }
 
-.table-cell{
-    display: table-cell;
-    width: 40%;
+.title{
     text-align: center;
-    padding: 4px 0;
-    border-right: 1px solid #d6d4d4;
-    vertical-align: middle;
+    padding-bottom: 70px;
+    padding-top: 30px;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 400;
+}
+.invoice-title{
+    text-align: center;
+    padding-bottom: 70px;
+    padding-top: 30px;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 400;
+}
+.invoice-table{
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 1.5px;
+    border-collapse: collapse;
+    width: 50em;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 10px 30px 5px rgba(0, 0, 0, 0.5);
+    margin: 25px auto ;
+}
+.h3 {
+    text-align: center;
+    padding-bottom: 70px;
+}
+.invoice-table thead tr{
+    border-bottom: 1px dashed grey;
+}
+.invoice-table tfoot tr{
+    border-top: 1px dashed grey;
 }
 
+.invoice-table thead tr td{
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: grey;
+    padding: 8px;
+}
+.invoice-table tfoot tr td{
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: green;
+    padding: 8px;
+}
+.invoice-table tbody tr td{   
+    padding: 8px;
+}
+
+.invoice-table thead tr td:nth-last-child(1),
+.invoice-table tbody tr td:nth-last-child(1),
+.invoice-table tfoot tr td:nth-last-child(1){
+    text-align: right;
+}
+.invoice-table tbody span{
+    font-size: 12px;
+}
+
+
+.footer{
+    margin: 0;
+    padding: 0;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: lightblue;
+      color: black;
+      font-size: 1.125rem;
+      display: inline-flex;
+  }
+  
+  .contain {
+    width: 100%;
+    position: absolute;
+    height: auto;
+    background-color:lightblue;
+    display: inline-flex;
+    justify-content: space-between;
+
+    margin: 0 auto;
+  }
+  .footer .col {
+    width: 190px;
+    height: auto;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 20px 0 0 0;
+  }
+  .footer .col h1 {
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    justify-content: space-between;
+    position: relative;
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 17px;
+    padding: 20px 20px 20px 20px;
+    color:black;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.250em;
+  }
+  .footer .col ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .footer .col ul li {
+    color: #999999;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 5px 0px 5px 0px;
+    cursor: pointer;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+  }
+  .social ul li {
+    display: inline-block;
+    padding-right: 5px !important;
+  }
+  
+  .footer .col ul li:hover {
+    color: #ffffff;
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+  }
+  .clearfix {
+    clear: both;
+  }
+  @media screen and (max-width: 770px) {
+    .contain {
+      width: 1200px;
+      margin: 0 auto;
+    }
+  }
+  @media screen and (max-width: 770px) {  
+    .contain .social {
+      width: 1000px;
+      display: block;
+    }
+    .social h1 {
+      margin: 0px;
+    }
+  }
+  @media screen and (max-width: 770px) {
+    .footer .col {
+      width: 33%;
+    }
+    .footer .col h1 {
+      font-size: 14px;
+    }
+    .footer .col ul li {
+      font-size: 13px;
+    }
+  }
+  @media screen and (max-width: 770px)  {
+      .footer .col {
+        width: 50%;
+      }
+      .footer .col h1 {
+        font-size: 14px;
+      }
+      .footer .col ul li {
+        font-size: 13px;
+      }
+    }
+  
+    
