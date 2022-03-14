@@ -371,6 +371,14 @@ p.slide-left{
 .invoice-table tbody span{
     font-size: 12px;
 }
+.tips{
+    text-align: center;
+    padding-bottom: 70px;
+    padding-top: 30px;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 200;
+}
 
 
 .footer{
@@ -443,6 +451,39 @@ p.slide-left{
     -webkit-transition: .1s;
     -moz-transition: .1s;
   }
+  socicons-list {
+    list-style: none;  
+    display: flex;  
+    justify-content: center;
+    } 
+    .socicons-list li {
+    margin: 30px 10px;
+    } 
+    .socicons-list li a {
+    text-decoration: none;  
+    padding: 30px;  
+    font-size: 30px;  
+    border-radius: 50%;  
+    color: #fff;  
+    background-color: #f1f1f1;  
+    transition: all ease-in-out 150ms;
+    } 
+    .socicons-list li a:hover {
+    text-shadow: 0 5px 10px #212121;
+    } 
+    .socicons-list li:nth-child(1) a {
+    background-color: #3e5b98;
+    } 
+    .socicons-list li:nth-child(2) a {
+    background-color: #c13584;
+    } 
+    .socicons-list li:nth-child(3) a {
+    background-color: #4da7de;
+    } 
+    .socicons-list li:nth-child(4) a{background-color: #dd4b39;} 
+    .socicons-list li:nth-child(5) a{background-color: #1769ff;} 
+    
+    
   .clearfix {
     clear: both;
   }
