@@ -11,7 +11,9 @@
      background-position: center;
      background-size: cover;
      overflow-x: hidden;
+ 
  }
+ 
  nav{ 
      width: 100%;
     display: flex;
